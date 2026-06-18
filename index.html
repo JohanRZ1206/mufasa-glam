@@ -193,7 +193,8 @@ section{position:relative}
 .serv-ic{width:62px;height:62px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:1.9rem;background:linear-gradient(135deg,var(--lavender-soft),var(--pink-soft));margin-bottom:18px}
 .serv-card h3{font-family:'Fraunces',serif;font-size:1.25rem;font-weight:600;margin-bottom:8px}
 .serv-card p{color:var(--muted);font-size:.95rem;font-weight:500}
-.serv-card .price{margin-top:16px;display:inline-block;font-weight:700;color:var(--purple);font-size:.9rem;background:var(--lavender-mist);padding:6px 14px;border-radius:50px}
+.serv-card .price{margin-top:16px;display:inline-block;font-weight:700;color:var(--purple);font-size:.9rem;background:var(--lavender-mist);padding:6px 14px;border-radius:50px;cursor:pointer;transition:.25s}
+.serv-card .price:hover{background:var(--lavender-soft);transform:translateY(-2px)}
 .serv-note{text-align:center;margin-top:38px;color:var(--muted);font-weight:600}
 .serv-note b{color:var(--purple)}
 
@@ -448,7 +449,7 @@ Amante de los animales 💖</div>
       <span class="kicker script" style="font-size:1.6rem;color:var(--pink)">Hola, soy Alison 👋</span>
       <h2>Cuido a tu mascota como si fuera mía</h2>
       <div class="role">🐾 Peluquera a cargo · Técnica en Veterinaria</div>
-      <p>En <b>MUFASA GLAM</b> la estética canina se hace con amor, paciencia y conocimiento. Mi formación como Técnica en Veterinaria me permite cuidar no solo la belleza de tu engreído, sino también su bienestar y su salud durante cada atención.</p>
+      <p>En <b>MUFASA GLAM</b> la estética canina se hace con amor, paciencia y conocimiento. Mi formación como Técnica en Veterinaria me permite cuidar no solo la belleza de tu peludito, sino también su bienestar y su salud durante cada atención.</p>
       <p>Desde cachorros hasta nuestros clientes senior, cada mascota recibe un trato dulce y personalizado. El objetivo es siempre el mismo: que se vaya <b>hermoso, limpio y feliz</b>. 💖</p>
       <div class="pills">
         <span class="pill">✂️ Cortes de pelo</span>
@@ -471,12 +472,12 @@ Amante de los animales 💖</div>
       <p>Estética y cuidado canino con productos suaves y mucho cariño. Atendemos de <b>lunes a viernes</b> con horarios flexibles a tu comodidad.</p>
     </div>
     <div class="serv-grid">
-      <div class="serv-card reveal"><div class="serv-ic">✂️</div><h3>Cortes de pelo</h3><p>Corte estético y de raza adaptado a tu mascota, para que luzca hermosa y cómoda.</p><span class="price">Consultar precio</span></div>
-      <div class="serv-card reveal"><div class="serv-ic">🛁</div><h3>Baño e higiene</h3><p>Baño completo, secado e higienización con productos suaves que cuidan su piel y pelaje.</p><span class="price">Consultar precio</span></div>
-      <div class="serv-card reveal"><div class="serv-ic">🐾</div><h3>Corte de uñas</h3><p>Corte de uñas seguro y sin estrés para el bienestar y comodidad de tu engreído.</p><span class="price">Consultar precio</span></div>
-      <div class="serv-card reveal"><div class="serv-ic">🩺</div><h3>Cortes sanitarios</h3><p>Cortes higiénicos en zonas delicadas, realizados con criterio veterinario.</p><span class="price">Consultar precio</span></div>
-      <div class="serv-card reveal"><div class="serv-ic">🧖</div><h3>Deslanado</h3><p>Eliminación del subpelo muerto para reducir la caída y mantener su manto sano.</p><span class="price">Consultar precio</span></div>
-      <div class="serv-card reveal"><div class="serv-ic">💖</div><h3>Cuidado integral</h3><p>Atención personalizada y dulce para cada mascota, desde cachorros hasta seniors.</p><span class="price">Consultar precio</span></div>
+      <div class="serv-card reveal"><div class="serv-ic">✂️</div><h3>Cortes de pelo</h3><p>Corte estético y de raza adaptado a tu mascota, para que luzca hermosa y cómoda.</p><a href="#contacto" class="price">Consultar precio →</a></div>
+      <div class="serv-card reveal"><div class="serv-ic">🛁</div><h3>Baño e higiene</h3><p>Baño completo, secado e higienización con productos suaves que cuidan su piel y pelaje.</p><a href="#contacto" class="price">Consultar precio →</a></div>
+      <div class="serv-card reveal"><div class="serv-ic">🐾</div><h3>Corte de uñas</h3><p>Corte de uñas seguro y sin estrés para el bienestar y comodidad de tu peludito.</p><a href="#contacto" class="price">Consultar precio →</a></div>
+      <div class="serv-card reveal"><div class="serv-ic">🩺</div><h3>Cortes sanitarios</h3><p>Cortes higiénicos en zonas delicadas, realizados con criterio veterinario.</p><a href="#contacto" class="price">Consultar precio →</a></div>
+      <div class="serv-card reveal"><div class="serv-ic">🧖</div><h3>Deslanado</h3><p>Eliminación del subpelo muerto para reducir la caída y mantener su manto sano.</p><a href="#contacto" class="price">Consultar precio →</a></div>
+      <div class="serv-card reveal"><div class="serv-ic">💖</div><h3>Cuidado integral</h3><p>Atención personalizada y dulce para cada mascota, desde cachorros hasta seniors.</p><a href="#contacto" class="price">Consultar precio →</a></div>
     </div>
     <p class="serv-note reveal">💬 Los precios se entregan al contactar, según la raza y el tipo de atención. <b>Escríbeme por WhatsApp</b> y agenda la hora de tu mascota.</p>
   </div>
@@ -486,12 +487,12 @@ Amante de los animales 💖</div>
 <section class="gallery section-pad" id="galeria">
   <div class="wrap">
     <div class="shead reveal">
-      <span class="kicker">Nuestros engreídos</span>
+      <span class="kicker">Nuestros peluditos</span>
       <h2>Clientes felices 🐶</h2>
       <p>Algunos de los peluditos que pasaron por MUFASA GLAM y se fueron hermosos.</p>
     </div>
     <div class="gal-grid">
-      <div class="gal-item reveal"><img src="assets/instagram/post-1.jpg" alt="Perritos atendidos en la peluquería canina MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Nuestros engreídos</b><span>¡Recuerda agendar tu hora!</span></div></div>
+      <div class="gal-item reveal"><img src="assets/instagram/post-1.jpg" alt="Perritos atendidos en la peluquería canina MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Nuestros peluditos</b><span>¡Recuerda agendar tu hora!</span></div></div>
       <div class="gal-item reveal"><img src="assets/instagram/post-2.jpg" alt="Javo, perrito senior tras su baño en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Javo</b><span>Cliente senior de 16 añitos 💞</span></div></div>
       <div class="gal-item reveal"><img src="assets/instagram/post-3.jpg" alt="Dylan limpio y bello tras su corte en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Dylan</b><span>Limpio y bello 🐕</span></div></div>
       <div class="gal-item reveal"><img src="assets/instagram/post-4.jpg" alt="Pucca tras su atención estética en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Pucca</b><span>Hermosa y feliz 🐩💕</span></div></div>
@@ -502,7 +503,7 @@ Amante de los animales 💖</div>
       <div class="gal-item reveal"><img src="assets/instagram/post-7.jpg" alt="Luna, perrita feliz tras su atención en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Luna</b><span>Hermosa y feliz 🥰</span></div></div>
       <div class="gal-item reveal"><img src="assets/instagram/post-11.jpg" alt="Lu con su nuevo cambio de look en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Lu</b><span>Feliz con su cambio de look 💖</span></div></div>
       <div class="gal-item reveal"><img src="assets/instagram/post-12.jpg" alt="Odis, cliente de la peluquería canina MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Odis</b><span>Nuestro querido cliente 🐾</span></div></div>
-      <div class="gal-item reveal"><img src="assets/instagram/post-6.jpg" alt="Perrito tras su atención estética en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Engreído feliz</b><span>Atención estética 🐶✂️</span></div></div>
+      <div class="gal-item reveal"><img src="assets/instagram/post-6.jpg" alt="Perrito tras su atención estética en MUFASA GLAM" loading="lazy" decoding="async"><div class="gal-cap"><b>Peludito feliz</b><span>Atención estética 🐶✂️</span></div></div>
     </div>
   </div>
 </section>
@@ -524,7 +525,7 @@ Amante de los animales 💖</div>
     <div>
       <span class="kicker">Hablemos 🐾</span>
       <h2>Agenda la hora<br>de tu mascota</h2>
-      <p class="intro">Escríbeme por WhatsApp o Instagram y coordinamos un horario a tu comodidad. ¡Tu engreído se irá feliz!</p>
+      <p class="intro">Escríbeme por WhatsApp o Instagram y coordinamos un horario a tu comodidad. ¡Tu peludito se irá feliz!</p>
       <div class="cinfo">
         <a href="https://wa.me/56976847816?text=Hola%20MUFASA%20GLAM!%20Quiero%20agendar%20una%20hora%20para%20mi%20mascota%20%F0%9F%90%BE" target="_blank" rel="noopener">
           <span class="ic">💬</span><div>+56 9 7684 7816<small>WhatsApp — agenda directa</small></div>
