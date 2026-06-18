@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Reemplaza el dominio cuando publiques
 Sitemap: https://mufasa-glam.netlify.app/sitemap.xml
