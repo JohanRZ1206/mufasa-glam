@@ -33,7 +33,3 @@ HTML5 · CSS3 · JavaScript (vanilla) · Google Fonts
 - WhatsApp: +56 9 7684 7816
 - Instagram: [@mufasa.glam](https://www.instagram.com/mufasa.glam/)
 - Ubicación: Villa Maestranza, San Bernardo, Santiago de Chile
-
----
-
-Sitio desarrollado con [Claude Code](https://claude.com/claude-code).
